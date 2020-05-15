@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header" style="font-family:  Baskerville Old Face;">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">I DON'T KONW I AM</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="nav nav-pills mt-3" style="letter-spacing: 0.156em;line-height: 7px;font-weight: 500;">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"style="background-color: rgb(214, 214, 214); color: #000;">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html" >About</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="more.html">More</a></li>
+
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>Spotlight.js Demo</title>
+  <script src="spotlight.bundle.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+  <style>
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 12px;
+      font-size: 12px;
+      width: 14.2%;
+    }
+
+    .tablink:hover {
+      background-color: #fff;
+      color: rgb(31, 29, 29);
+    }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+    #SK {
+      background-color: #000;
+    }
+
+    #Ark {
+      background-color: #000000;
+    }
+
+    #AK {
+      background-color: #000000;
+    }
+
+    #Mk {
+      background-color: #000000;
+    }
+
+    #SP {
+      background-color: #000000;
+    }
+
+    #RK {
+      background-color: #000000;
+    }
+
+    #SSC {
+      background-color: #000000;
+    }
+
+
+
+    .nav-link {
+      color: #000;
+      background-color: none;
+      border-color: #000;
+      display: block;
+      border-bottom: blue;
+      margin-top: -20px;
+      outline: none;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+  </style>
+</head>
+
+</html>
+<html>
+
+<head>
+  <title>gallery</title>
+  <style>
+    /* Set height of body and the document to 100% */
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.356);
+      font-family: Arial;
+    }
+
+    /* Style tab links */
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 12px;
+      font-size: 12px;
+      width: 14.2%;
+    }
+
+    .tablink:hover {
+      background-color: #fff;
+      color: rgb(31, 29, 29);
+    }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+    #SK {
+      background-color: #000;
+    }
+
+    #Ark {
+      background-color: #000000;
+    }
+
+    #AK {
+      background-color: #000000;
+    }
+
+    #Mk {
+      background-color: #000000;
+    }
+
+    #SP {
+      background-color: #000000;
+    }
+
+    #RK {
+      background-color: #000000;
+    }
+
+    #SSC {
+      background-color: #000000;
+    }
+
+
+
+    .nav-link {
+      color: #000;
+      background-color: none;
+      border-color: #000;
+      display: block;
+      border-bottom: blue;
+      margin-top: -20px;
+      outline: none;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      background: #e6e6e6;
+    }
+  </style>
+</head>
+<br><br>
+
+<body>
+
+
+  <center>
+    <button class="tablink" onclick="openPage('SK', this, '#000000')" id="defaultOpen"
+      style="background-color: rgb(0, 0, 0);">SK</button>
+    <button class="tablink" onclick="openPage('Ark', this, '#000000')">ARK</button>
+    <button class="tablink" onclick="openPage('AK', this, '#000000')">AK</button>
+    <button class="tablink" onclick="openPage('Mk', this, '#0000')">MK</button>
+    <button class="tablink" onclick="openPage('SP', this, '#0000')">SP</button>
+    <button class="tablink" onclick="openPage('RK', this, '#0000')">RK</button>
+    <button class="tablink" onclick="openPage('SSC', this, '#0000')">SSC</button>
+  </center>
+  <div id="SK" class="tabcontent" style="display: block;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="sk (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="sk-t (1).jpg" alt="SHIV KUMAR YADAV">
+        </a>
+
+        <a class="spotlight" href="sk (2).jpg">
+          <img src="sk-t (2).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (3).jpg">
+          <img src="sk-t (3).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (4).jpg">
+          <img src="sk-t (4).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (5).jpg">
+          <img src="sk-t (5).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (6).jpg">
+          <img src="sk-t (6).jpg">
+        </a>
+        <a class="spotlight" href="sk (7).jpg">
+          <img src="sk-t (7).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (8).jpg">
+          <img src="sk-t (8).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (9).jpg">
+          <img src="sk-t (9).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (10).jpg">
+          <img src="sk-t (10).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (11).jpg">
+          <img src="sk-t (11).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (12).jpg">
+          <img src="sk-t (12).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (13).jpg">
+          <img src="sk-t (13).jpg">
+        </a>
+
+        <a class="spotlight" href="sk (14).jpg">
+          <img src="sk-t (14).jpg">
+        </a>
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+  <div id="Ark" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="ark (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="akr-t (1).jpg" alt="arviend nishad">
+        </a>
+
+        <a class="spotlight" href="ark (2).jpg">
+          <img src="akr-t (2).jpg">
+        </a>
+
+        <a class="spotlight" href="ark (3).jpg">
+          <img src="akr-t (3).jpg">
+        </a>
+
+        <a class="spotlight" href="ark (4).jpg">
+          <img src="akr-t (4).jpg">
+        </a>
+
+        <a class="spotlight" href="ark (5).jpg">
+          <img src="akr-t (5).jpg">
+        </a>
+
+        <a class="spotlight" href="ark (6).jpg">
+          <img src="akr-t (6).jpg">
+        </a>
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+  <div id="AK" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="ak (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="ak-t (1).jpg" alt="amit nishad">
+        </a>
+
+        <a class="spotlight" href="ak (2).jpg">
+          <img src="ak-t (2).jpg">
+        </a>
+
+
+
+        <a class="spotlight" href="ak (4).jpg">
+          <img src="ak-t (4).jpg">
+        </a>
+        <a class="spotlight" href="ak (3).jpg">
+          <img src="ak-t (3).jpg">
+        </a>
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+
+  <div id="Mk" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="mk (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="mk-t (1).jpg" alt="Mohan rathiya">
+        </a>
+
+        <a class="spotlight" href="mk (2).jpg">
+          <img src="mk-t (2).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (3).jpg">
+          <img src="mk-t (3).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (4).jpg">
+          <img src="mk-t (4).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (5).jpg">
+          <img src="mk-t (5).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (6).jpg">
+          <img src="mk-t (6).jpg">
+        </a>
+        <a class="spotlight" href="mk (7).jpg">
+          <img src="mk-t (7).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (8).jpg">
+          <img src="mk-t (8).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (9).jpg">
+          <img src="mk-t (9).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (10).jpg">
+          <img src="mk-t (10).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (11).jpg">
+          <img src="mk-t (11).jpg">
+        </a>
+
+        <a class="spotlight" href="mk (12).jpg">
+          <img src="mk-t (12).jpg">
+        </a>
+
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+
+  <div id="SP" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="sp (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="sp-t (1).jpg" alt="surendra sing">
+        </a>
+
+        <a class="spotlight" href="sp (2).jpg">
+          <img src="sp-t (2).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (3).jpg">
+          <img src="sp-t (3).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (4).jpg">
+          <img src="sp-t (4).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (5).jpg">
+          <img src="sp-t (5).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (6).jpg">
+          <img src="sp-t (6).jpg">
+        </a>
+        <a class="spotlight" href="sp (7).jpg">
+          <img src="sp-t (7).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (8).jpg">
+          <img src="sp-t (8).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (9).jpg">
+          <img src="sp-t (9).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (10).jpg">
+          <img src="sp-t (10).jpg">
+        </a>
+
+        <a class="spotlight" href="sp (11).jpg">
+          <img src="sp-t (11).jpg">
+        </a>
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+
+  <div id="RK" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="rk (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="rk-t (1).jpg" alt="Rupendra rathiya">
+        </a>
+
+        <a class="spotlight" href="rk (2).jpg">
+          <img src="rk-t (2).jpg">
+        </a>
+
+        <a class="spotlight" href="rk (3).jpg">
+          <img src="rk-t (3).jpg">
+        </a>
+
+        <a class="spotlight" href="rk (4).jpg">
+          <img src="rk-t (4).jpg">
+        </a>
+
+        <a class="spotlight" href="rk (5).jpg">
+          <img src="rk-t (5).jpg">
+        </a>
+        <br>
+        <a class="spotlight" href="rk (6).jpg">
+          <img src="rk-t (6).jpg">
+        </a>
+
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+
+  <div id="SSC" class="tabcontent" style="display: none;">
+
+    <body style="font-family:  Baskerville Old Face;">
+      <b>
+        <hr style="margin-top: -70px;">
+      </b>
+      <p class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <b style="margin-top: -60px;">Anchors &amp; Images</b>
+        <a class="spotlight" href="ssc (1).jpg" style="font-family:  Baskerville Old Face;"
+          data-description="gharghoda">
+          <img src="ssc-t (1).jpg" alt="satyendra chaudhary">
+        </a>
+
+        <a class="spotlight" href="ssc (2).jpg">
+          <img src="ssc (2).jpg">
+        </a>
+
+        <a class="spotlight" href="ssc (3).jpg">
+          <img src="ssc (3).jpg">
+        </a>
+
+        <a class="spotlight" href="ssc (4).jpg">
+          <img src="ssc (4).jpg">
+        </a>
+
+        <a class="spotlight" href="ssc (5).jpg">
+          <img src="ssc (5).jpg">
+        </a>
+
+
+
+
+      </p>
+      <b>Custom Elements</b>
+      <div class="spotlight-group" style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="spotlight image" data-src="godafoss-1840758.jpg"
+          style="background-image:url(godafoss-1840758-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="seljalandsfoss-1751463.jpg"
+          style="background-image:url(seljalandsfoss-1751463-thumb.jpg)"></div>
+        <div class="spotlight image" data-src="montana-1829251.jpg"
+          style="background-image:url(montana-1829251-thumb.jpg)"></div>
+      </div>
+      <br>
+      <b style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">API Call</b>
+      <p>Choose Animation:</p>
+      <input type="checkbox" value="slide" checked> Slide &emsp;
+      <input type="checkbox" value="fade" checked> Fade &emsp;
+      <input type="checkbox" value="scale" checked> Scale &emsp;
+      <input type="checkbox" value="flip"> Flip
+      <br><br>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(1)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(2)">Show</button>
+      </div>
+      <div class="image" style="height: auto">
+        <button onclick="showGallery(3)">Show</button>
+      </div>
+      <div style="background-color:#333;color:#fff;font-family:  Baskerville Old Face;">
+        <div class="image" style="background-image:url(london-1758181-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(sea-1975403-thumb.jpg)"></div>
+        <div class="image" style="background-image:url(newport-beach-2089906-thumb.jpg)"></div>
+      </div>
+      <br><br>
+      <script>
+
+        const checkboxes = document.getElementsByTagName("input");
+
+        const gallery = [{
+
+          title: "Image 1",
+          description: "This is a description.",
+          src: "london-1758181.jpg"
+        }, {
+          title: "Image 2",
+          description: "This is a description.",
+          src: "sea-1975403.jpg"
+        }, {
+          title: "Image 3",
+          description: "This is a description.",
+          src: "newport-beach-2089906.jpg"
+        }];
+
+        window.showGallery = function (index) {
+
+          Spotlight.show(gallery, {
+
+            index: index,
+            theme: "dark",
+            animation: [
+              checkboxes[0].checked && checkboxes[0].value,
+              checkboxes[1].checked && checkboxes[1].value,
+              checkboxes[2].checked && checkboxes[2].value,
+              checkboxes[3].checked && checkboxes[3].value
+            ]
+          });
+        };
+
+      </script>
+    </body>
+    <footer class="container-fluid text-center"
+      style="font-size: 17px;line-height: 38px;font-family: Baskerville Old Face; letter-spacing: 0.195em;font-weight: 600;">
+      <a href="#" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>This wedsited Made By <a href="https://www.rsrawat.com/" title="Visit w3schools">www.RSrawat.com</a></p>
+    </footer>
+  </div>
+
+  <script>
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+</body>
+
+</html>

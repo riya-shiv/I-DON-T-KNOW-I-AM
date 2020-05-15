@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery_002.js"></script>
+  <script src="bootstrap.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap_002.css">
+  <script src="jquery.js"></script>
+  <script src="bootstrap_002.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <font face="Gabriola">
+          <a class="navbar-brand" href="#">I DONT KNOW I AM</a></font>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar"><ul class="nav navbar-nav navbar-right"></ul>
+          <li><a href="Register/Register.HTML"><span class="glyphicon glyphicon-user"></span>New User Register</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Contact Us</a></li>
+        </ul>
+      </div>
+  </nav>
+  <ul class="nav nav-pills mt-3">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"  style="background-color: rgb(214, 214, 214); color: #000;">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">More</a></li>
+  </ul>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    /* Set height of body and the document to 100% */
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.356);
+      font-family: Arial;
+    }
+
+    /* Style tab links */
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 12px;
+      font-size: 12px;
+      width: 14.2%;
+    }
+
+    .tablink:hover {
+      background-color:#fff; 
+      color: rgb(31, 29, 29);
+    }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+    #SK {
+      background-color: #000;
+    }
+
+    #Ark {
+      background-color: #000000;
+    }
+
+    #AK {
+      background-color: #000000;
+    }
+
+    #Mk {
+      background-color: #000000;
+    }
+     
+    #SP {
+      background-color: #000000;
+    }
+
+    #RK {
+      background-color: #000000;
+    }
+    
+    #SSC {
+      background-color: #000000;
+    }
+
+
+
+    .nav-link {
+      color: #000;
+      background-color: none;
+      border-color: #000;
+      display: block;
+      border-bottom: blue;
+      margin-top: -20px;
+      outline: none;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <CENter>
+    <button class="tablink" onclick="openPage('SK', this, '#000000')" id="defaultOpen">SK</button>
+    <button class="tablink" onclick="openPage('Ark', this, '#0000')" >ARK</button>
+    <button class="tablink" onclick="openPage('AK', this, '#0000')">AK</button>
+    <button class="tablink" onclick="openPage('Mk', this, '#0000')">MK</button>
+    <button class="tablink" onclick="openPage('SP', this, '#0000')">SP</button>
+    <button class="tablink" onclick="openPage('RK', this, '#0000')" >RK</button>
+    <button class="tablink" onclick="openPage('SSC', this, '#0000')">SSC</button>
+  </CENter>
+  <div id="SK" class="tabcontent">
+    <h3>SK</h3>
+    <p>Home is where the heart is..</p>
+    <!DOCTYPE html>  
+    <html>  
+    <head>  
+        <meta charset="utf-8" />  
+        <title>My Slider</title>  
+        <style type="text/css">  
+            body {  
+                margin: 0;  
+                background: #e6e6e6;  
+            }  
+            .showSlide {  
+                display: none  
+            }  
+                .showSlide img {  
+                    width: 100%;  
+                }  
+            .slidercontainer {  
+                max-width: 1000px;  
+                position: relative;  
+                margin: auto;  
+            }  
+            .left, .right {  
+                cursor: pointer;  
+                position: absolute;  
+                top: 50%;  
+                width: auto;  
+                padding: 16px;  
+                margin-top: -22px;  
+                color: white;  
+                font-weight: bold;  
+                font-size: 18px;  
+                transition: 0.6s ease;  
+                border-radius: 0 3px 3px 0;  
+            }  
+            .right {  
+                right: 0;  
+                border-radius: 3px 0 0 3px;  
+            }  
+                .left:hover, .right:hover {  
+                    background-color: rgba(115, 115, 115, 0.8);  
+                }  
+            .content {  
+                color: #eff5d4;  
+                font-size: 30px;  
+                padding: 8px 12px;  
+                position: absolute;  
+                top: 10px;  
+                width: 100%;  
+                text-align: center;  
+            }  
+            .active {  
+                background-color: #717171;  
+            }  
+            /* Fading animation */  
+            .fade {  
+                -webkit-animation-name: fade;  
+                -webkit-animation-duration: 1.5s;  
+                animation-name: fade;  
+                animation-duration: 1.5s;  
+            }  
+            @-webkit-keyframes fade {  
+                from {  
+                    opacity: .4  
+                }  
+                to {  
+                    opacity: 1  
+                }  
+            }  
+      
+            @keyframes fade {  
+                from {  
+                    opacity: .4  
+                }  
+                to {  
+                    opacity: 1  
+                }  
+            }  
+        </style>  
+    </head>  
+    <body>  
+        <div class="slidercontainer">  
+            <div class="showSlide fade">  
+                <img src="img1.jpg" />  
+                <div class="content">Slide1 heading</div>  
+            </div>  
+            <div class="showSlide fade">  
+                <img src="img2.jpg" />  
+                <div class="content">Slide2 heading</div>  
+            </div>  
+      
+            <div class="showSlide fade">  
+                <img src="img3.jpg" />  
+                <div class="content">Slide3 heading</div>  
+            </div>  
+            <div class="showSlide fade">  
+                <img src="img4.jpg" />  
+                <div class="content">Slide4 heading</div>  
+            </div>  
+            <!-- Navigation arrows -->  
+            <a class="left" onclick="nextSlide(-1)">❮</a>  
+            <a class="right" onclick="nextSlide(1)">❯</a>  
+        </div>  
+      
+        <script type="text/javascript">  
+            var slide_index = 1;  
+            displaySlides(slide_index);  
+      
+            function nextSlide(n) {  
+                displaySlides(slide_index += n);  
+            }  
+      
+            function currentSlide(n) {  
+                displaySlides(slide_index = n);  
+            }  
+      
+            function displaySlides(n) {  
+                var i;  
+                var slides = document.getElementsByClassName("showSlide");  
+                if (n > slides.length) { slide_index = 1 }  
+                if (n < 1) { slide_index = slides.length }  
+                for (i = 0; i < slides.length; i++) {  
+                    slides[i].style.display = "none";  
+                }  
+                slides[slide_index - 1].style.display = "block";  
+            }  
+        </script>  
+      
+    </body>  
+    </html> 
+  </div>
+  <div id="Ark" class="tabcontent">
+    <h3>Ark</h3>
+    <p>Some news this fine day!</p>
+  </div>
+
+  <div id="AK" class="tabcontent">
+    <h3>AK</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+
+  <div id="Mk" class="tabcontent">
+    <h3>Mk</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+   
+  <div id="SP" class="tabcontent">
+    <h3>SP</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+  <div id="RK" class="tabcontent">
+    <h3>RK</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+  <div id="SSC" class="tabcontent">
+    <h3>SSC</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+  <script>
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+</body>
+
+</html>
